@@ -15,7 +15,7 @@ The model architecture is composed of:
 The total loss for the model is calculated as:
 
 \[
-L_{total} = \sum_{i=1}^{3} (L_{wIoU} + L_{wBCE})
+L_total =  (L_{wIoU} + L_{wBCE})
 \]
 
 Where:
@@ -35,6 +35,13 @@ Where:
 ## Training Objective
 
 The model is trained using a combination of Weighted IoU and BCE loss with deep supervision applied to all segmentation outputs.
+
+## Results
+![Screenshot 2025-03-13 163839](https://github.com/user-attachments/assets/04c49920-d2ea-475f-8724-e3469b859150)
+![Screenshot 2025-03-13 163855](https://github.com/user-attachments/assets/a5a73552-dedc-42bb-8429-056b92ff0339)
+
+## Dataset
+kaggle-https://www.kaggle.com/datasets/balraj98/duts-saliency-detection-dataset
 
 ## Future Work
 - Improving the training pipeline.
